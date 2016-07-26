@@ -1,0 +1,81 @@
+body{
+	width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #888;
+    font-size: 16px;
+    line-height: 1.6em;
+    background-color: #fff;
+}
+#header{
+	background:url(../img/bg1.jpg) no-repeat top center;
+	background-size:cover;
+	padding: 200px 0px 150px 0px;
+}
+#header_img{
+	text-align:center;
+}
+#head_arrow{
+	text-align:center;
+}
+#navigation_div{
+	height:53px;
+}
+#navigation_div nav{
+	padding-top:7px;
+}
+#navigation{
+	border-bottom:1px solid #eee;
+	height:100%;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+}
+#list{
+	text-align:center;
+	cursor:default;
+}
+#list li{
+	display:inline-block;
+	float:none;
+	list-style:none;
+	padding:5px 10px 5px 5px;
+	
+}
+#list li>a{
+	font-size:16px;
+	font-weight:700;
+	color:#444;
+	letter-spacing:1px;
+}
+#list li>a:hover{
+	text-decoration:none;
+	color:#d43076;
+}
+#sec1{
+	padding-top:100px;
+	padding-bottom: 40px;
+}
+#sec1 .container{
+	text-align:center;
+	margin-bottom:50px;
+}
+#leftRow img{
+	width: 100%;
+    height: auto;
+}
+#rightRow {
+	text-align:left;
+}
+#rightRow>a{
+	color:#ccc;
+	background-color:#d43076;
+	border-color:#d43076;
+}
+#iconContainer{
+	background:url(../img/parallax-bg.jpg) no-repeat top center;
+	padding-bottom: 110px;
+    padding-top: 120px;
+}
+#iconDiv{
+	text-align:center;
+}
