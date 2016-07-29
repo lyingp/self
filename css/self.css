@@ -79,3 +79,13 @@ body{
 #iconDiv{
 	text-align:center;
 }
+.home-section{
+	padding-top:120px;
+	padding-bottom:100px;
+}
+.section-heading{
+	margin-bottom:40px;
+}
+.bg-gray{
+	background-color:#f8f8f8;
+}
