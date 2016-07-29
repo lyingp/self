@@ -1,6 +1,6 @@
 ;(function($){
 	
-			new WOW().init();
+		new WOW().init();
 			
 		//owl carousel
 		$("#owl-works").owlCarousel({
@@ -11,7 +11,8 @@
             itemsTabletSmall: [550,2],
             itemsMobile : [480,2],
         });
-    //nivo lightbox
+		
+		//nivo lightbox
 		$('.owl-carousel .item a').nivoLightbox({
 			effect: 'fadeScale',                             // The effect to use when showing the lightbox
 			theme: 'default',                           // The lightbox theme to use
@@ -26,4 +27,13 @@
 			onNext: function(element){},                // Callback when the lightbox gallery goes to next item
 			errorMessage: 'The requested content cannot be loaded. Please try again later.' // Error message when content can't be loaded
 		});
+		
+		$('#head_arrow a').on("click",function(){
+			var $anchor = $(this);
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 1500, 'easeInOutExpo');
+			event.preventDefault();
+		});
+		
 })(jQuery);

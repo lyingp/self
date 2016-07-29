@@ -19,6 +19,13 @@ body{
 #head_arrow{
 	text-align:center;
 }
+#head_arrow a{
+	color:white;
+}
+#head_arrow a:hover{
+	color:#d43076;
+	transition:color 0.5s linear;
+}
 #navigation_div{
 	height:53px;
 }
@@ -88,4 +95,7 @@ body{
 }
 .bg-gray{
 	background-color:#f8f8f8;
+}
+#gallery .active>span{
+	background-color:#d43076;
 }
